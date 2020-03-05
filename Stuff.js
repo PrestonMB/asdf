@@ -6,4 +6,8 @@ if (oldq.className == "favorite" && newq.className == "notfavorite") {
   newq.click()
 }
 
+if (oldq.className == "favorite" && newq.className == "favorite") {
+  oldq.click()
+}
+
 alert('Please use version 4 of the AIO query. If you previously had version 3 favorited, v4 should now be in your favorites list.')
